@@ -171,3 +171,49 @@ if (energia >= 100) {
     console.log("❌" + nome+ "não consegue desviar e acaba sendo esfaqueado com uma faca de magia sangrenta");
 }
 
+console.log("");
+
+console.log("Capítulo 3: O fim da jornada de Lazzy🌟");
+console.log("");
+console.log("-Após a ultima batalha contra os bugs Lazzy decide investigar");
+console.log("-Ele percebe que ainda há um bug vivo e faz com que ele o leve até o rei bug");
+console.log("-Então Lazzy avista um castelo de longe e vai até ele");
+console.log("-Chegando la ele usa sua magia de invocação para o ajuda-lo a entrar no castelo em segurança");
+console.log("-Então ele derrota vários subordinados do rei e invoca um cão morto-vivo farejador para encontra-lo");
+console.log("-Então Lazzy encontra o tão temido rei bug");
+console.log("");
+console.log("-A batalha final ira iniciar!!");
+console.log("");
+
+let forcainimiga = 200
+
+if (vidaAtual <= 20) {
+    console.log("Com pouca vida, " + nome+ " decide usar seu poder máximo novamente para acabar logo com aquela luta");
+    console.log("Explosão das trevas com força total!!");
+    forcainimiga -= (forca * 2);
+} else if (energiaAtual >= 150 && classe === "Necromante") {
+    console.log("😈HaHaHaHa " + nome+ " desperta seu poder interior das trevas e derrota o boss e deixa um buraco enorme no castelo após o ataque!");
+    console.log("Magia destruidora de mundos!!💀");
+    forcainimiga -= (forca + 20);
+    energiaAtual -= 1000;
+} else if (vidaAtual < 20 && agilidade >= 100) {
+    console.log("🍃 Com grande agilidade, desvia dos ataques do Rei bug e o ataca rapidamenten no coração");
+    forcainimiga -= forca;
+} else {
+    console.log("🏃‍♂️ Luta defensiva e calculada!");
+    forcainimiga -= (forca / 2);
+    vidaAtual += 50; 
+}
+
+console.log("");
+
+xp += 20000;  
+moedas += 50000; 
+vida += 3000; 
+dano *= 8; 
+nivel ++;  
+
+console.log(`-Após a batalha, Lazzy ficou no nível ${nivel} com ${moedas} moedas e com outros atributos melhorados.`);
+
+console.log("Final da Segunda Jornada de " + nome + ":");
+console.log(`Nivel🔼: ${nivel}, XP✨: ${xp}, Moedas💸: ${moedas}, Vida❤: ${vida} Dano Atual: ${dano}`);
