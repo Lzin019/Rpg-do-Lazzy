@@ -133,3 +133,41 @@ nivel ++;
 
 console.log(`-Após a batalha, Lazzy ficou no nível ${nivel} com ${moedas} moedas e com outros atributos melhorados.🔥🔥`);
 
+
+console.log("Capítulo 2: O descanso de Lazzy 🛏️ ");
+console.log("");
+console.log("-Após errotar o boss, Lazzy se sente na obrigação de aprimorar a si mesmo");
+console.log("-Lazzy avista um vilarejo próximo e decide ir até lá para descansar");
+console.log("-Chegando la ele avista um multidão em volta do que pareia uma rocha");
+console.log("-Ele decide perguntar a uma jovem que estava por perto o que havia acontecido");
+console.log("-Então ela responde que um cavalheiro do reino bug infincou uma espada sagrada na rocha a onde passava a água do vilarejo");
+console.log("-E isso fazia com que não tivesse água para os cidadões");
+console.log("-Lazzy como um bom homem de coração puro decide ajudar");
+console.log("-Vários homens do vilarejo avisaram há ele para não tentar pois não haviam conseguido tirar a espada nem mesmo com 30 homens puxando-a");
+
+console.log("");
+
+//Condicionais Compostas 1/2
+console.log("Lazzy se aproxima da espada e tenta puxala");
+if (forca >= 100) {
+    console.log("👍🔥 " + nome+ " puxa a espada com facilidade e todos ficam em choque total se perguntando quem seria aquele homem");
+} else {
+    console.log("❌ " + nome+ " não consegue puxar a espada e apenas passa vergonha se cagando de tanta força que fez...");
+}
+console.log("");
+console.log("-Lazzy acha estranhamento fácil e fica se perguntanto o quão forte ele se tornou");
+console.log("-Mas não suficiente ele ainda quer mais poder");
+console.log("-As pessoas do vilarejo o agardecem e o presenteam com muita comida");
+console.log("-Lazzy come tudo pois estava com muita fome e decide ir embora do vilarejo.");
+console.log("-Então o rei dos bugs após saber do ato de Lazzy manda seus subordinados atrás dele");
+console.log("-Lazzy na floresta após sair do vilarejo é cercado pelos bugs, que após o verem partem para cima!");
+console.log("");
+
+//Condicionais Compostas 2/2
+console.log("Lazzy pensa rápido e tenta desviar");
+if (energia >= 100) {
+    console.log("😮" + nome+ "desvia e acaba com os bugs em um piscar de olhos 👀");
+} else {
+    console.log("❌" + nome+ "não consegue desviar e acaba sendo esfaqueado com uma faca de magia sangrenta");
+}
+
