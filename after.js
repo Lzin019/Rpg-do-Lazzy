@@ -108,3 +108,28 @@ console.log("-Após o ataque de lazzy o monstro desperta e parte para cima!!😱
 console.log("------------------------------------------------");
 
 
+//Condicionais Compostas 2/3
+if (agilidade >= 120) { 
+    console.log("🍃 Com agilidade suficiente, " + nome + " desvia do ataque do monstro e revida!");
+    agilidade -= 30;
+    console.log("Agilidade restante: " + agilidade);
+} 
+
+console.log("");
+console.log("Lazzy então sem escolha decide liberar todo seu poder e ir para cima do monstro, mas antes checa sua energia");
+console.log("");
+
+//Condicionais Compostas 3/3
+if (energiaAtual >= 90) { 
+    console.log("😈 Com todo seu poder restante, " + nome + " decide usar seu ataque secreto e derrota o monstro.😮");
+    agilidade -= 90;
+} 
+
+xp += 2000;  
+moedas += 3000; 
+vida += 200; 
+dano *= 3; 
+nivel ++;  
+
+console.log(`-Após a batalha, Lazzy ficou no nível ${nivel} com ${moedas} moedas e com outros atributos melhorados.🔥🔥`);
+
